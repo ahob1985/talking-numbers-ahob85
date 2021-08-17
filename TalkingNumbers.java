@@ -154,9 +154,9 @@ public class TalkingNumbers
             wordForm = "zero";
         } else {
             int ones = num % 10;
-            int tens = (int) Math.floor(num / 10) % 10;
-            int hundreds = (int) Math.floor(num / 100) % 10;
-            int thousands = (int) Math.floor(num / 1000);
+            int tens =  num / 10 % 10;
+            int hundreds = num / 100 % 10;
+            int thousands = num / 1000;
             if(thousands > 0) {
                 wordForm += sayOneNine(thousands) + "-thousand ";
             }
