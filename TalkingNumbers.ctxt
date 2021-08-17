@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TalkingNumbers
+comment0.text=\n\ Write\ a\ description\ of\ class\ TalkingNumbers\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ printGreeting()
+comment1.text=\n\ Prints\ a\ simple\ greeting.\ Be\ as\ creative\ as\ you\ want\ here.\ Be\ sure\ to\ \n\ include\ your\ name\ as\ the\ author\!\n
+comment2.params=num
+comment2.target=java.lang.String\ sayOneNine(int)
+comment2.text=\n\ This\ function\ takes\ an\ int\ between\ 1\ and\ 9\ (inclusive)\ as\ input\ and\ \n\ returns\ that\ same\ value\ in\ word\ form.\ If\ the\ int\ is\ not\ between\ 1\ and\ \n\ 9,\ the\ function\ returns\ an\ empty\ string,\ which\ is\ just\ "".\n\ \n\ Examples\:\n\ sayOneNine(5)\ \u2192\ "five"\n\ sayOneNine(8)\ \u2192\ "eight"\n\ sayOneNine(13)\ \u2192\ ""\n
+comment3.params=num
+comment3.target=java.lang.String\ sayTenNineteen(int)
+comment3.text=\n\ This\ function\ takes\ an\ int\ between\ 10\ and\ 19\ (inclusive)\ as\ input\ and\ \n\ returns\ that\ same\ value\ in\ word\ form.\ If\ the\ int\ is\ not\ between\ 10\ and\n\ 19,\ the\ function\ returns\ an\ empty\ string,\ which\ is\ just\ "".\n\ \n\ Examples\:\n\ sayTenNineteen(11)\ \u2192\ "eleven"\n\ sayTenNineteen(15)\ \u2192\ "fifteeen"\n\ sayTenNineteen(25)\ \u2192\ ""\n
+comment4.params=num
+comment4.target=java.lang.String\ sayTwentyNinety(int)
+comment4.text=\n\ This\ function\ takes\ an\ int\ between\ 2\ and\ 9\ (inclusive)\ as\ input\ and\ \n\ returns\ that\ same\ value\ in\ word\ form,\ but\ in\ the\ tens\ place.\ If\ the\ int\n\ is\ not\ between\ 2\ and\ 9,\ the\ function\ returns\ an\ empty\ string,\ \n\ which\ is\ just\ "".\n\ \n\ Examples\:\n\ sayTwentyNinety(5)\ \u2192\ "fifty"\n\ sayTwentyNinety(8)\ \u2192\ "eighty"\n\ sayTwentyNinety(1)\ \u2192\ ""\n
+comment5.params=num
+comment5.target=java.lang.String\ sayNumber(int)
+comment5.text=\n\ This\ function\ calls\ the\ three\ functions\ above\ to\ convert\ an\ entire\ \n\ int\ (num)\ into\ word\ form,\ then\ returns\ that\ word.\ This\ function\ should\ \n\ be\ able\ to\ handle\ ints\ from\ 0\ to\ 9999\ (inclusive).\n\ \n\ To\ do\ this,\ first\ declare\ a\ variable\ named\ wordForm\ at\ the\ top\ of\ the\n\ function.\ This\ will\ be\ the\ string\ you\ will\ return\ at\ the\ end\ of\ the\ \n\ function,\ so\ initialize\ it\ to\ an\ empty\ string\ at\ the\ start\:\ \n\ \n\ String\ wordForm\ \=\ "";\n\ \n\ Your\ first\ conditional\ statement\ should\ check\ if\ num\ is\ equal\ to\ 0.\ If\ \n\ so,\ set\ wordForm\ to\ the\ string\ "zero".\n\ \n\ Otherwise,\ build\ the\ word\ form\ of\ num\ by\ chopping\ num\ into\ thousands,\n\ hundreds,\ tens,\ and\ ones.\ Convert\ each\ place\ value\ number\ to\ a\ word\ by\ \n\ calling\ the\ three\ functions\ above,\ and\ concatenate\ each\ word\ with\ the\ \n\ wordForm\ variable.\n\ \n\ At\ the\ very\ end\ of\ your\ function\ it\ should\ simply\ return\ wordForm.\n\ \n\ Examples\:\n\ sayNumber(0)\ \u2192\ "zero"\n\ sayNumber(9999)\ \u2192\ "nine-thousand\ nine-hundred\ ninety-nine"\n\ sayNumber(75)\ \u2192\ "seventy-five"\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ This\ function\ simply\ runs\ your\ program.\ At\ the\ very\ least\ it\ should\ \n\ greet\ the\ user,\ ask\ the\ user\ to\ enter\ an\ integer\ between\ 0\ and\ 9999,\ \n\ then\ print\ that\ integer\ in\ word\ form.\n
+numComments=7
