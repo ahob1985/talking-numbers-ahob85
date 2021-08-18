@@ -1,26 +1,22 @@
 
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
-
-import java.io.*;
 
 /**
- * The test class TestTalkingNumbers.
+ * The test class TalkingNumbersTest.
  *
  * @author  (your name)
  * @version (a version number or a date)
  */
-public class TestTalkingNumbers
+public class TalkingNumbersTest
 {
     /**
-     * Default constructor for test class TestTalkingNumbers
+     * Default constructor for test class TalkingNumbersTest
      */
-    public TestTalkingNumbers()
+    public TalkingNumbersTest()
     {
     }
 
@@ -45,7 +41,7 @@ public class TestTalkingNumbers
     }
     
     @Test
-    public void test_sayOneNine() {
+    public void sayOneNineTest() {
         assertEquals("", TalkingNumbers.sayOneNine(0));
         assertEquals("", TalkingNumbers.sayOneNine(-1));
         assertEquals("", TalkingNumbers.sayOneNine(100));
@@ -61,7 +57,7 @@ public class TestTalkingNumbers
     }
     
     @Test
-    public void test_sayTenNineteen() {
+    public void sayTenNineteenTest() {
         assertEquals("", TalkingNumbers.sayTenNineteen(0));
         assertEquals("", TalkingNumbers.sayTenNineteen(-1));
         assertEquals("", TalkingNumbers.sayTenNineteen(1));
@@ -78,7 +74,7 @@ public class TestTalkingNumbers
     }
     
     @Test
-    public void test_sayTwentyNinety() {
+    public void sayTwentyNinetyTest() {
         assertEquals("", TalkingNumbers.sayTwentyNinety(0));
         assertEquals("", TalkingNumbers.sayTwentyNinety(-11));
         assertEquals("", TalkingNumbers.sayTwentyNinety(15));
@@ -93,7 +89,7 @@ public class TestTalkingNumbers
     }
     
     @Test
-    public void test_sayNumber() {
+    public void sayNumberTest() {
         assertEquals("zero", TalkingNumbers.sayNumber(0));
         assertEquals("nine-thousand nine-hundred ninety-nine", TalkingNumbers.sayNumber(9999));
         assertEquals("seventy-five", TalkingNumbers.sayNumber(75));
