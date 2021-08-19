@@ -186,7 +186,7 @@ public class TalkingNumbers
         Scanner sc = new Scanner(System.in);
         printGreeting();
         System.out.print("Please enter any integer between 0 and 9999: ");
-        int num = sc.nextInt();
+        int num = Integer.parseInt(sc.nextLine());
         System.out.println("Word Form: " + sayNumber(num));
         System.out.println("Thank you! Goodbye!");
     }
