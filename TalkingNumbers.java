@@ -16,7 +16,6 @@ public class TalkingNumbers
     public static void printGreeting() {
         System.out.println("Talking Numbers");
         System.out.println("By: Hidden Genius");
-        System.out.println();
     }
 
     /**
